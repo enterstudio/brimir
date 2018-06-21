@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
-gem 'sass-rails', "~> 5.0.0"
+gem 'sass-rails', '~> 5.0.6'
 gem 'coffee-rails', "~> 4.2.0"
 
 gem 'uglifier', "~> 3.0.0"
 
-gem 'compass-rails', '~> 3.0.0'
+gem 'compass-rails', '~> 3.0.2'
 gem 'foundation-rails', '~> 5.5.0'
 
 gem 'jquery-rails', "~> 4.2"
@@ -92,7 +92,7 @@ gem 'gravatar_image_tag', "~> 1.2"
 gem 'recaptcha', "~> 4.0", require: 'recaptcha/rails'
 
 # Trix WYSIWYG editor
-gem 'trix', "~> 0.10", ">= 0.10.1"
+gem 'trix', '~> 0.10', '>= 0.10.1'
 
 # React support
 gem 'react-rails', "~> 1.10"
