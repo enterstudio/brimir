@@ -10,7 +10,7 @@ gem 'uglifier', "~> 3.0.0"
 gem 'compass-rails', '~> 3.0.0'
 gem 'foundation-rails', '~> 5.5.0'
 
-gem 'jquery-rails', "~> 4.2"
+gem 'jquery-rails', '~> 4.3', '>= 4.3.4'
 
 # foundation form errors
 gem 'foundation_rails_helper', "~> 2.0"
