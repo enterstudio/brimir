@@ -49,8 +49,8 @@ gem 'mysql2', "~> 0.4", group: :mysql
 gem 'sqlite3', "~> 1.3", group: :sqlite
 
 # authentication
-gem 'devise', "~> 4.2"
-gem 'devise_ldap_authenticatable', "~> 0.8"
+gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'devise_ldap_authenticatable', '~> 0.8', '>= 0.8.5'
 
 # mail see https://github.com/mikel/mail/issues/912
 gem 'mail'
