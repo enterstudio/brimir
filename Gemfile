@@ -36,7 +36,7 @@ group :test do
   gem 'rake', "~> 12.0"
 
   # for coveralls
-  gem 'coveralls', "~> 0.8"
+  gem 'coveralls', '~> 0.8', '>= 0.8.17'
 
   gem 'timecop', "~> 0.8"
 end
@@ -89,7 +89,7 @@ gem 'fancybox2-rails', "~> 0.2"
 gem 'gravatar_image_tag', "~> 1.2"
 
 # Captcha for brimir
-gem 'recaptcha', "~> 4.0", require: 'recaptcha/rails'
+gem 'recaptcha', '4.0.0'
 
 # Trix WYSIWYG editor
 gem 'trix', "~> 0.10", ">= 0.10.1"
