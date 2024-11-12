@@ -76,7 +76,7 @@ gem 'font-awesome-rails', '~> 4.0'
 gem 'http_accept_language', "~> 2.1"
 
 # internationalisation
-gem 'rails-i18n', "~> 5.0"
+gem 'rails-i18n', '~> 8.0', '>= 8.0.0'
 gem 'devise-i18n', "~> 1.1"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
